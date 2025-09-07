@@ -1,5 +1,5 @@
 Name:           orthodoxy
-Version:        1.0.2
+Version:        1.0.3
 Release:        1%{?dist}
 Summary:        Clang plugin to enforce custom C++ feature restrictions
 
@@ -31,6 +31,10 @@ cd ..
 
 %install
 %ninja_install -C build
+
+
+%check
+ctest --test-dir build
 
 
 %files
