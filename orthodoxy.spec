@@ -1,5 +1,5 @@
 Name:           orthodoxy
-Version:        1.0.3
+Version:        1.0.4
 Release:        1%{?dist}
 Summary:        Clang plugin to enforce custom C++ feature restrictions
 
